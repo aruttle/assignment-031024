@@ -1,0 +1,83 @@
+body{
+    background-image: url("images/whitesails4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left:5%;   
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.heading1{
+    margin-left: 2%;
+    font-size: clamp(1.5rem, 5vw, 3rem); /* Scales responsively */
+    color: #FFF;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px #03000c;
+    
+  }
+
+.whitesails{
+    border-radius:15px 100px 100px 15px;
+    background-image: linear-gradient(#e97132, #8FA5CE);
+    opacity: 0.8; 
+    color:bisque;
+    font-size: 2em; 
+	padding: 1px;
+    
+}
+
+
+.headerlinks a{
+    margin-left: 2%;
+    font-size: 15px;
+    text-decoration: none; /* This removes the underline */
+    color: white;
+    
+    
+}
+
+.h1-second{
+    font-size:50%;
+    margin-left: 2%;
+}
+
+.tumbnails img{ 
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+
+footer{
+    margin-top: 10%;
+    color:#FFF
+}
+
+a img{
+    border-radius:15px ;
+    justify-content: space-around; 
+    align-items: center;
+   
+}
+
+.welcome-note{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    
+    
+}
+
+#greeting{
+    
+    font-family:Arial, Helvetica, sans-serif; 
+    color:#FFF;
+    
+    
+}
+
+p{
+    font-family:Arial, Helvetica, sans-serif; 
+    color:#FFF  
+}
